@@ -8,18 +8,15 @@ public class NameElectrics extends StateElectrics implements BehaviorElectrics{
 
 	//Input of five electrical appliances
 	
-	protected void text() {
-		System.out.println("Введите 5 приборов: ");
-	}
+	
 	
 	public String[] mass = new String[5];
 	{
-		text();
-		mass[0] = new String(name=scan.next());
-		mass[1] = new String(name=scan.next());
-		mass[2] = new String(name=scan.next());
-		mass[3] = new String(name=scan.next());
-		mass[4] = new String(name=scan.next());
+		mass[0] = new String(name="Television");
+		mass[1] = new String(name="Phone");
+		mass[2] = new String(name="Iron");
+		mass[3] = new String(name="Teapot");
+		mass[4] = new String(name="Coffee machine");
 	}
 	
 		

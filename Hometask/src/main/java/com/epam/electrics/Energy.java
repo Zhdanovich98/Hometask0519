@@ -9,11 +9,11 @@ public class Energy extends StateElectrics implements BehaviorElectrics{
 	public Integer[] mass = new Integer[5];
 	{
 		
-		mass[0] = new Integer(valueEnergy=scan.nextInt());
-		mass[1] = new Integer(valueEnergy=scan.nextInt());
-		mass[2] = new Integer(valueEnergy=scan.nextInt());
-		mass[3] = new Integer(valueEnergy=scan.nextInt());
-		mass[4] = new Integer(valueEnergy=scan.nextInt());
+		mass[0] = new Integer(valueEnergy=45);
+		mass[1] = new Integer(valueEnergy=65);
+		mass[2] = new Integer(valueEnergy=12);
+		mass[3] = new Integer(valueEnergy=67);
+		mass[4] = new Integer(valueEnergy=23);
 
 }
 }

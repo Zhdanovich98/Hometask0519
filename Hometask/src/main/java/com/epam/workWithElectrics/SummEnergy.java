@@ -16,12 +16,12 @@ public class SummEnergy extends State {
 		Energy Energy = new Energy();
 		int index = -1;
 		  for (int i = 0; i < mass.length; i++) {
-		      if ("Германия".equals(mass[i])) {
+		      if ("on".equals(mass[i])) {
 		          index = i;
-		          System.out.println("Подключен: "+NameElectrics.mass[i] );
+		          System.out.println("Work: "+NameElectrics.mass[i] );
 		          ArrayList.add(Energy.mass[i]);
-		          System.out.println("Мощность: "+ Energy.mass[i]);
-		          System.out.println("Всего: " + summ());
+		          System.out.println("State velue : "+ Energy.mass[i]);
+		          System.out.println("Result : " + summ());
 		          
 		 } 	
 	}

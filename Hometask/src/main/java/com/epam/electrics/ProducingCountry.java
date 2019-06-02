@@ -8,10 +8,10 @@ public class ProducingCountry extends StateElectrics implements BehaviorElectric
 	
 	public String[] mass = new String[5];
 	{
-		mass[0] = new String("Беларусь");
-		mass[1] = new String("Китай");
-		mass[2] = new String("Китай");
-		mass[3] = new String("Германия");
-		mass[4] = new String("Германия");
+		mass[0] = new String(producingCountry = "Japan");
+		mass[1] = new String(producingCountry = "China");
+		mass[2] = new String(producingCountry = "China");
+		mass[3] = new String(producingCountry = "Germany");
+		mass[4] = new String(producingCountry = "Japan");
 	}
 }
